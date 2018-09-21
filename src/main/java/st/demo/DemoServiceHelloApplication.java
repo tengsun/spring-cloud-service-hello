@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemoServiceHelloApplication {
 
-	private Logger logger = Logger.getLogger(getClass().getName());
+	private Logger logger = Logger.getLogger(DemoServiceHelloApplication.class.getName());
 
 	@Value("${spring.application.name}")
 	private String serviceId;
